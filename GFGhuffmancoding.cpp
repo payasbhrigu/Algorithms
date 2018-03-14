@@ -117,7 +117,7 @@ int main()
     string s;
     getline(cin,s);
     //cout<<s<<'\n';
-    m.insert(pair<char,int>('@',0));
+    m.insert(pair<char,int>('@',0));    //for spaces
     int i=0;
     map<char,int>::iterator it;
     while(s[i]!='\0')
